@@ -8,7 +8,7 @@ CXXFLAGS = -Wall -Wextra -std=c++17
 TARGET = app
 
 # Source files
-SRCS = main.cpp
+SRCS =  $(wildcard *.cpp)
 
 # Object files (if needed)
 OBJS = $(SRCS:.cpp=.o)
